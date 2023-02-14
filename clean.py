@@ -23,3 +23,6 @@ if __name__ == '__main__':
    # data_cleaned = clean("respondent_contact.csv","respondent_other.csv")
     data_cleaned = clean(args.contact_info,args.other_info)
     data_cleaned.to_csv(args.output,index=False)
+
+a=1;b=10  # add some new content to update the clean.py
+x=a+b
